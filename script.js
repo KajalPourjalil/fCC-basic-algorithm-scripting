@@ -30,3 +30,12 @@ function reverseString2(str) {
 }
 
 reverseString2('kajal');
+
+function factorialize(num) {
+    if (num <= 0) {
+        return 1;
+    }
+    return num * factorialize(num - 1);
+}
+
+factorialize(5);
