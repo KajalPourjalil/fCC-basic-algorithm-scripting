@@ -21,3 +21,12 @@ function reverseString(str) {
 }
 
 reverseString('nice');
+
+function reverseString2(str) {
+    return str
+    .split("")
+    .reverse()
+    .join("");
+}
+
+reverseString2('kajal');
