@@ -84,3 +84,13 @@ function findLongestWordLength(str) {
   }
   
   repeatStringNumTimes("abc", 3);
+
+  function printEven() {
+    const arr = [];
+    for (let i = 0; i <= 10000; i+=2) {
+        arr.push(i);
+    }
+    console.log(arr);
+  }
+
+  printEven();
